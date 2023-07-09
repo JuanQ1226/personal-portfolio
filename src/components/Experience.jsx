@@ -12,14 +12,14 @@ export const Experience = () => {
       </h1>
       <hr className="w-full border-[1px] border-white" />
       <div className="flex flex-col justify-center w-full items-center p-8">
-        <div className="grid grid-cols-2 gap-10 m-4 w-full px-20">
+        <div className="grid grid-cols-2 gap-10 m-4 w-full lg:px-20">
           <h2 className="text-2xl font-sans font-bold w-full text-start">
             Expirience:
           </h2>
           {experiences.map((experience) => {
-            let classEven = "md:col-start-1";
+            let classEven = "lg:col-start-1";
             if (experience.id % 2 === 0) {
-              classEven = "md:col-start-2";
+              classEven = "lg:col-start-2";
             }
             return (
               <div
