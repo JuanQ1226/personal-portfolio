@@ -8,13 +8,13 @@ export const Hero = () => {
           id="card"
           className="flex flex-col justify-center items-center h-min p-10 duration-300 transition-all shadow ease-in-out rounded-xl border-gray-500 border-2 bg-neutral-950 w-min "
         >
-          <h2 className="text-xl text-white font-thin self-start">
+          <h2 className="text-lg md:text-xl text-white font-thin self-start">
             Welcome, I'm
           </h2>
-          <h1 className="text-5xl text-white font-bold whitespace-nowrap">
+          <h1 className="text-4xl md:text-5xl text-white font-bold whitespace-nowrap">
             Juan Quintana
           </h1>
-          <h2 className="text-xl underline underline-offset-8 text-white font-thin self-start mt-1">
+          <h2 className="text-center text-lg md:text-xl underline underline-offset-8 text-white font-thin self-start mt-1">
             Computer Science Undergrad & CTO
           </h2>
         </div>
