@@ -41,6 +41,28 @@ export const Navbar = () => {
           })}
         </ul>
       </nav>
+      <div title="My Resume" className="fixed bottom-[28px] right-[8px] ">
+        <div className="mb-10 hover:scale-110 transition-all ease-in-out duration-300">
+          <a
+            title="My Resume"
+            className="bg-white  text-black text-3xl px-6 py-4 rounded-full "
+          >
+            <i class="fa fa-file-pdf"></i>
+          </a>
+        </div>
+        <div
+          title="My Git"
+          className="hover:scale-110 transition-all ease-in-out duration-300"
+        >
+          <a
+            href="https://github.com/JuanQ1226"
+            target="_blank"
+            className="bg-white text-black text-3xl px-6 py-4 rounded-full "
+          >
+            <i class="fa fa-github"></i>
+          </a>
+        </div>
+      </div>
     </header>
   );
 };
