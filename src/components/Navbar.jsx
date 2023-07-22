@@ -12,8 +12,8 @@ export const Navbar = () => {
     <header className="fixed top-0 left-0 w-full z-50">
       <nav className="bg-black border-b-[1px] border-b-neutral-700 text-white flex justify-between p-4 items-center">
         <div className="flex justify-center items-center text-center">
-          <h1 className="font-barcode hidden md:block md:text-4xl">
-            Juan Quintana
+          <h1 className="font-nav hidden md:block md:text-2xl">
+            Juan.Quintana
           </h1>
         </div>
         <ul className="grid grid-cols-3 gap-6 lg:mx-6">
