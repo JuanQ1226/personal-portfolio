@@ -9,13 +9,22 @@ const NavLinks = [
 
 export const Navbar = () => {
   return (
-    <header className="fixed top-0 left-0 w-full z-50">
+    <header className="sticky top-0 left-0 w-full z-50">
       <nav className="bg-black border-b-[1px] border-b-neutral-700 text-white flex justify-between p-4 items-center">
         <div className="flex justify-center items-center text-center">
           <h1 className="font-nav hidden md:block md:text-2xl">
             Juan.Quintana
           </h1>
         </div>
+        <div>
+          <a
+            className="hover:underline font-mono font-bold text-lg"
+            href="mailto:juan.quintana5@upr.edu"
+          >
+            {`Email me at juan.quintana5@upr.edu`}
+          </a>
+        </div>
+
         <ul className="grid grid-cols-3 gap-6 lg:mx-6">
           {NavLinks.map((link) => {
             const handleClick = () => {
@@ -46,6 +55,7 @@ export const Navbar = () => {
           <a
             title="My Resume"
             className="bg-white  text-black text-3xl px-6 py-4 rounded-full "
+            href="https://docs.google.com/document/d/1OQwlCVLZMOJYfhyjQytyWItTCHS6s9lQq-1sOhjhjjQ/edit?usp=sharing"
           >
             <i class="fa fa-file-pdf"></i>
           </a>
