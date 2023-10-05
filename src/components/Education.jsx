@@ -20,7 +20,7 @@ export const Education = () => {
       </h1>
       {myEducation.map((education) => {
         return (
-          <Fade className="self-center" direction="up">
+          <Fade className="self-center" direction="up" triggerOnce>
             <div className="text-black flex flex-col justify-center items-center bg-neutral-100 border border-neutral-600 rounded-xl md:w-96 p-4 sm:mx-2 md:mx-0 mt-4 mb-8">
               <div>
                 <h2 className=" text-xl font-bold md:whitespace-nowrap">

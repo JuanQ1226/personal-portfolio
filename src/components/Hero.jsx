@@ -3,7 +3,7 @@ import "./css/Hero.css";
 import { Fade } from "react-awesome-reveal";
 export const Hero = () => {
   return (
-    <main className="z-0 w-[100vw] h-[100vh] border-b-slate-500 border-b-2  flex  justify-center items-center">
+    <main className="z-0 w-[100vw] h-[50vh] border-b-slate-500 border-b-2  flex  justify-center items-center">
       <div className="h-full w-full backdrop-brightness-50 flex justify-center items-center">
         <Fade>
           <div

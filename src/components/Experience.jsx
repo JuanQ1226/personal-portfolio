@@ -28,6 +28,7 @@ export const Experience = () => {
               <Fade
                 key={experience.id}
                 direction={direction}
+                triggerOnce
                 className={`  shadow-md shadow-neutral-700 bg-black border border-neutral-700 p-4 rounded-xl lg:w-[800px] ${classEven} `}
               >
                 <div className="col-span-2 md:grid md:grid-cols-2">

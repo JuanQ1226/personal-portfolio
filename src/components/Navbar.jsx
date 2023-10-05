@@ -16,14 +16,6 @@ export const Navbar = () => {
             Juan.Quintana
           </h1>
         </div>
-        <div>
-          <a
-            className="hover:underline font-mono font-bold text-lg"
-            href="mailto:juan.quintana5@upr.edu"
-          >
-            {`Email me at juan.quintana5@upr.edu`}
-          </a>
-        </div>
 
         <ul className="grid grid-cols-3 gap-6 lg:mx-6">
           {NavLinks.map((link) => {

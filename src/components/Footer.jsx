@@ -49,6 +49,15 @@ export const Footer = () => {
               </svg>
             </a>
           </div>
+          <div className="text-gray-400 flex-row flex gap-2 items-center justify-center">
+            <i class="fa-solid fa-at"></i>
+            <a
+              className="hover:text-blue-500 hover:underline"
+              href="mailto:juan.quintana5@upr.edu"
+            >
+              juan.quintana5@upr.edu
+            </a>
+          </div>
           <p className="mt-8 text-base leading-6 text-center text-gray-400">
             © 2023 Juan Quintana All rights reserved.
           </p>
