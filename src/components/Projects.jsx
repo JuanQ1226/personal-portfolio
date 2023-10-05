@@ -2,6 +2,7 @@ import React from "react";
 import { ProjectCard } from "./pieces/ProjectCard";
 import Sweb from "../assets/sweb.png";
 import audioViz from "../assets/AudioViz2.gif";
+import { Fade } from "react-awesome-reveal";
 const ProjectsData = [
   {
     key: 0,
@@ -44,18 +45,25 @@ export const Projects = () => {
         <h1 className="font-bold text-3xl">My Projects.</h1>
       </div>
       <div className="w-full flex justify-center items-center">
-        <div className="md:grid grid-rows-2 grid-cols-3 m-10 lg:ms-32 md:gap-10 justify-center">
-          {ProjectsData.map((project) => {
-            return (
-              <ProjectCard
-                key={project.key}
-                title={project.name}
-                description={project.description}
-                image={project.image}
-                link={project.link}
-              />
-            );
-          })}
+        <div className="md:grid grid-rows-2 grid-cols-3 m-10  md:gap-10 justify-center">
+          <Fade
+            triggerOnce
+            cascade
+            damping={0.1}
+            className="flex justify-center items-center"
+          >
+            {ProjectsData.map((project) => {
+              return (
+                <ProjectCard
+                  key={project.key}
+                  title={project.name}
+                  description={project.description}
+                  image={project.image}
+                  link={project.link}
+                />
+              );
+            })}
+          </Fade>
         </div>
       </div>
     </section>
