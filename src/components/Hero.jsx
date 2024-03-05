@@ -17,7 +17,7 @@ export const Hero = () => {
               Juan Quintana
             </h1>
             <h2 className="text-center text-lg md:text-xl underline underline-offset-8 text-white font-thin self-start mt-1">
-              Computer Science Undergrad & CTO
+              a Computer Science Student
             </h2>
           </div>
         </Fade>
