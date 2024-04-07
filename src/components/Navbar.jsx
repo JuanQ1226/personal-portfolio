@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Navbar.css";
 
 const NavLinks = [
@@ -48,7 +47,7 @@ export const Navbar = () => {
             className="bg-white  text-black text-3xl px-6 py-4 rounded-full "
             href="https://docs.google.com/document/d/1OQwlCVLZMOJYfhyjQytyWItTCHS6s9lQq-1sOhjhjjQ/edit?usp=sharing"
           >
-            <i class="fa fa-file-pdf"></i>
+            <i className="fa fa-file-pdf"></i>
           </a>
         </div>
         <div
@@ -58,9 +57,10 @@ export const Navbar = () => {
           <a
             href="https://github.com/JuanQ1226"
             target="_blank"
+            rel="noreferrer"
             className="bg-white text-black text-3xl px-6 py-4 rounded-full "
           >
-            <i class="fa fa-github"></i>
+            <i className="fa fa-github"></i>
           </a>
         </div>
       </div>

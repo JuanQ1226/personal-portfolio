@@ -1,4 +1,3 @@
-import React from "react";
 import "./css/Hero.css";
 import { Fade } from "react-awesome-reveal";
 export const Hero = () => {
@@ -11,7 +10,7 @@ export const Hero = () => {
             className="flex flex-col justify-center items-center h-min p-10 duration-300 transition-all shadow ease-in-out rounded-xl border-gray-500 border-2 bg-neutral-950 w-min "
           >
             <h2 className="text-lg md:text-xl text-white font-thin self-start">
-              Welcome, I'm
+              Welcome, I&aposm
             </h2>
             <h1 className="text-4xl md:text-5xl text-white font-bold whitespace-nowrap">
               Juan Quintana

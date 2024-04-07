@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectCard } from "./pieces/ProjectCard";
 import Sweb from "../assets/sweb.png";
 import audioViz from "../assets/AudioViz2.gif";
