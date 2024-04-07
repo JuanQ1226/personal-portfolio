@@ -2,6 +2,7 @@ import React from "react";
 import { ProjectCard } from "./pieces/ProjectCard";
 import Sweb from "../assets/sweb.png";
 import audioViz from "../assets/AudioViz2.gif";
+import maze from "../assets/maze.png";
 import { Fade } from "react-awesome-reveal";
 const ProjectsData = [
   {
@@ -35,6 +36,13 @@ const ProjectsData = [
       "An application that allows you to vizualize an audio file in diferent ways.",
     image: audioViz,
     link: "https://github.com/JuanQ1226/AudioVisualizer.git",
+  },
+  {
+    key: 4,
+    name: "Maze Generator and Solver",
+    description: "A maze generator and solver using BFS.",
+    image: maze,
+    link: "https://maze-generator-and-solver.vercel.app/",
   },
 ];
 

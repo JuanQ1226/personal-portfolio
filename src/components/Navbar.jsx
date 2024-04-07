@@ -4,7 +4,6 @@ import "./css/Navbar.css";
 const NavLinks = [
   { text: "About", icon: "fa-solid fa-person" },
   { text: "Projects", icon: "fa-solid fa-code" },
-  { text: "Contact", icon: "fa-solid fa-envelope" },
 ];
 
 export const Navbar = () => {
@@ -17,7 +16,7 @@ export const Navbar = () => {
           </h1>
         </div>
 
-        <ul className="grid grid-cols-3 gap-6 lg:mx-6">
+        <ul className="grid grid-cols-2 gap-6 lg:mx-6">
           {NavLinks.map((link) => {
             const handleClick = () => {
               const element = document.getElementById(link.text);
